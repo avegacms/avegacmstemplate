@@ -1,0 +1,7 @@
+CRITICAL - 2020-06-11 10:15:30 --> Undefined property: App\Controllers\Home::$viewDirectory
+#0 /home/niitkddesign/public_html/app/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#2 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

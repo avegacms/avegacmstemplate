@@ -1,0 +1,19 @@
+CRITICAL - 2020-06-12 05:41:50 --> Array to string conversion
+#0 /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/niitkddesign/public_html/system/View/View.php(246): include('/home/niitkddes...')
+#2 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/niitkddesign/public_html/app/Controllers/Home.php(19): view()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 06:35:15 --> Call to undefined function phone_as_number()
+#0 /home/niitkddesign/public_html/system/View/View.php(246): include()
+#1 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/niitkddesign/public_html/app/Controllers/Home.php(19): view()
+#3 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

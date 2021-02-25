@@ -1,0 +1,49 @@
+CRITICAL - 2020-06-14 01:35:42 --> Undefined index: 
+#0 /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/niitkddesign/public_html/system/View/View.php(246): include('/home/niitkddes...')
+#2 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/niitkddesign/public_html/app/Controllers/Home.php(139): view()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 04:27:46 --> Call to undefined function ecp()
+#0 /home/niitkddesign/public_html/system/View/View.php(246): include()
+#1 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/niitkddesign/public_html/app/Controllers/Home.php(170): view()
+#3 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-14 04:30:11 --> Argument 4 passed to anchor() must be an instance of Config\App or null, string given, called in /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php on line 160
+#0 /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php(160): anchor()
+#1 /home/niitkddesign/public_html/system/View/View.php(246): include('/home/niitkddes...')
+#2 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/niitkddesign/public_html/app/Controllers/Home.php(170): view()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 12:39:23 --> Undefined index: in_cart
+#0 /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php(279): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/niitkddesign/public_html/system/View/View.php(246): include('/home/niitkddes...')
+#2 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/niitkddesign/public_html/app/Controllers/Home.php(271): view()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-14 22:37:18 --> Undefined variable: brands
+#0 /home/niitkddesign/public_html/public/themes/niitkd/views/theme_template_view.php(373): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/niitkddesign/public_html/system/View/View.php(246): include('/home/niitkddes...')
+#2 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/niitkddesign/public_html/app/Controllers/Home.php(281): view()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

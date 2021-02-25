@@ -1,0 +1,9 @@
+CRITICAL - 2021-01-25 01:55:22 --> Invalid file: themes/mizutani/views/ui_elements/main_view.php
+#0 /home/mizutani/public_html/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/mizutani/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/mizutani/public_html/app/Controllers/Home.php(885): view()
+#3 /home/mizutani/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/mizutani/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/mizutani/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/mizutani/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

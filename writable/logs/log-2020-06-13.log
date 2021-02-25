@@ -1,0 +1,9 @@
+CRITICAL - 2020-06-13 23:50:30 --> Class 'Modules' not found
+#0 /home/niitkddesign/public_html/system/View/View.php(246): include()
+#1 /home/niitkddesign/public_html/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/niitkddesign/public_html/app/Controllers/Home.php(117): view()
+#3 /home/niitkddesign/public_html/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/niitkddesign/public_html/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/niitkddesign/public_html/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/niitkddesign/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
